@@ -74,13 +74,13 @@
     .box{
         width: 230px;
         height: 300px;
-        box-shadow: 5px 5px 50px gray;
+        box-shadow: 5px 5px 50px skyblue;
         background-color: black;
         text-align: center;
         padding: 15px;
         color: aqua;
         margin-top: 86px;
-        border-radius: 10px;
+        border-radius: 2px 25px 2px 25px;
         
     }
     .icon{
@@ -101,11 +101,23 @@
         display: flex;
         justify-content: space-around;
         padding: 20px;
-        background-color: black;
+        background-image: url('background.png'), linear-gradient(rgb(0, 0, 0),rgb(184, 7, 7));
         height: 70vh;
     }
     .lol{
        margin-top: 50px;
        border-color: black;
         
+    }
+    .kkk{
+        border: 20px solid   rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0);
+        border-radius: 4px 30px 0px 0px;
+        color: aquamarine;
+        
+    }
+    .jjj{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 20px;
     }
